@@ -1,0 +1,7 @@
+category: Graphics Libs
+requires: cygwin zlib
+external-source: libpng12
+sdesc: "PNG library (1.2 development)"
+ldesc: "libpng is the official reference library for the PNG
+format. PNG, or Portable Network Graphics, is a
+turbo-studly image format with lossless compression."

@@ -1,0 +1,85 @@
+libpng12
+------------------------------------------
+libpng is the official reference library for the PNG
+format. PNG, or Portable Network Graphics, is a
+turbo-studly image format with lossless compression.
+
+Runtime requirements:
+  cygwin-1.5.21-1
+  zlib-1.2.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.21-1
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.2.4-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.22-1
+  make-3.81-1
+  sed-4.1.5-1
+
+Canonical website:
+  http://www.libpng.org/pub/png/libpng.html
+
+Canonical download:
+  http://prdownloads.sourceforge.net/libpng/
+  ftp://ftp.simplesystems.org/pub/libpng/png/src/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libpng12-1.2.12-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libpng12-1.2.12-X.cygport all
+
+This will create:
+  /usr/src/libpng12-1.2.12-X-src.tar.bz2
+  /usr/src/libpng12-1.2.12-X.tar.bz2
+  /usr/src/libpng12-devel-1.2.12-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the main package:
+
+  /usr/bin/cygpng12-0.dll
+  /usr/bin/cygpng12.dll
+  /usr/share/doc/Cygwin/libpng12-1.2.12.README
+  /usr/share/doc/libpng12-1.2.12/ANNOUNCE
+  /usr/share/doc/libpng12-1.2.12/Changes
+  /usr/share/doc/libpng12-1.2.12/INSTALL
+  /usr/share/doc/libpng12-1.2.12/KNOWNBUG
+  /usr/share/doc/libpng12-1.2.12/LICENSE
+  /usr/share/doc/libpng12-1.2.12/README
+  /usr/share/doc/libpng12-1.2.12/TODO
+  /usr/share/doc/libpng12-1.2.12/example.c
+
+Files included in the development package:
+
+  /etc/postinstall/libpng12.sh
+  /etc/preremove/libpng12.sh
+  /usr/bin/libpng12-config
+  /usr/include/libpng12/png.h
+  /usr/include/libpng12/pngconf.h
+  /usr/lib/libpng12.a
+  /usr/lib/libpng12.dll.a
+  /usr/lib/libpng12.la
+  /usr/lib/pkgconfig/libpng12.pc
+  /usr/share/man/man3/libpng12.3.gz
+  /usr/share/man/man3/libpng12pf.3.gz
+  /usr/share/man/man5/png12.5.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.2.12-1 -----
+Version bump; last release was 1.2.8-2 by Charles Wilson.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
