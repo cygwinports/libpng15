@@ -5,21 +5,18 @@ format. PNG, or Portable Network Graphics, is a
 turbo-studly image format with lossless compression.
 
 Runtime requirements:
-  cygwin-1.5.21-1
-  zlib-1.2.3-1
+  cygwin-1.5.24-2
+  zlib-1.2.3-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.21-1
-  autoconf2.5-2.59-2
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.4-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  libtool1.5-1.5.22-1
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
   make-3.81-1
-  sed-4.1.5-1
+  sed-4.1.5-2
 
 Canonical website:
   http://www.libpng.org/pub/png/libpng.html
@@ -31,37 +28,37 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libpng12-1.2.12-X-src.tar.bz2
+  unpack libpng12-1.2.18-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libpng12-1.2.12-X.cygport all
+  cygport ./libpng12-1.2.18-X.cygport all
 
 This will create:
-  /usr/src/libpng12-1.2.12-X-src.tar.bz2
-  /usr/src/libpng12-1.2.12-X.tar.bz2
-  /usr/src/libpng12-devel-1.2.12-X.tar.bz2
+  /usr/src/libpng12-1.2.18-X-src.tar.bz2
+  /usr/src/libpng12-1.2.18-X.tar.bz2
+  /usr/src/libpng12-devel-1.2.18-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the main package:
 
-  /usr/bin/cygpng12-0.dll
   /usr/bin/cygpng12.dll
-  /usr/share/doc/Cygwin/libpng12-1.2.12.README
-  /usr/share/doc/libpng12-1.2.12/ANNOUNCE
-  /usr/share/doc/libpng12-1.2.12/Changes
-  /usr/share/doc/libpng12-1.2.12/INSTALL
-  /usr/share/doc/libpng12-1.2.12/KNOWNBUG
-  /usr/share/doc/libpng12-1.2.12/LICENSE
-  /usr/share/doc/libpng12-1.2.12/README
-  /usr/share/doc/libpng12-1.2.12/TODO
-  /usr/share/doc/libpng12-1.2.12/example.c
+  /usr/share/doc/Cygwin/libpng12-1.2.18.README
+  /usr/share/doc/libpng12-1.2.18/ANNOUNCE
+  /usr/share/doc/libpng12-1.2.18/Changes
+  /usr/share/doc/libpng12-1.2.18/INSTALL
+  /usr/share/doc/libpng12-1.2.18/KNOWNBUG
+  /usr/share/doc/libpng12-1.2.18/LICENSE
+  /usr/share/doc/libpng12-1.2.18/README
+  /usr/share/doc/libpng12-1.2.18/TODO
+  /usr/share/doc/libpng12-1.2.18/example.c
+  /usr/share/doc/libpng12-1.2.18/libpng-1.2.18.txt
 
 Files included in the development package:
 
-  /etc/postinstall/libpng12.sh
-  /etc/preremove/libpng12.sh
+  /etc/postinstall/libpng12-devel.sh
+  /etc/preremove/libpng12-devel.sh
   /usr/bin/libpng12-config
   /usr/include/libpng12/png.h
   /usr/include/libpng12/pngconf.h
@@ -77,8 +74,9 @@ Files included in the development package:
 
 Port Notes:
 
------ version 1.2.12-1 -----
-Version bump; last release was 1.2.8-2 by Charles Wilson.
+----- version 1.2.18-1 -----
+Version bump; last release was 1.2.12-1 by Charles Wilson.
+Includes upstream patch for gray handling (Gentoo bug #181318).
 
 
 Cygwin port maintained by:
