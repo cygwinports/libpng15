@@ -74,6 +74,9 @@ Files included in the development package:
 
 Port Notes:
 
+----- version 1.2.18-2 -----
+Fixed pkg-config file.
+
 ----- version 1.2.18-1 -----
 Version bump; last release was 1.2.12-1 by Charles Wilson.
 Includes upstream patch for gray handling (Gentoo bug #181318).
