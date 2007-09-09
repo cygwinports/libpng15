@@ -22,38 +22,38 @@ Canonical website:
   http://www.libpng.org/pub/png/libpng.html
 
 Canonical download:
-  http://prdownloads.sourceforge.net/libpng/
+  http://downloads.sourceforge.net/libpng/
   ftp://ftp.simplesystems.org/pub/libpng/png/src/
 
 -------------------------------------------
 
 Build instructions:
-  unpack libpng12-1.2.18-X-src.tar.bz2
+  unpack libpng12-1.2.20-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libpng12-1.2.18-X.cygport all
+  cygport ./libpng12-1.2.20-X.cygport all
 
 This will create:
-  /usr/src/libpng12-1.2.18-X-src.tar.bz2
-  /usr/src/libpng12-1.2.18-X.tar.bz2
-  /usr/src/libpng12-devel-1.2.18-X.tar.bz2
+  /usr/src/libpng12-1.2.20-X-src.tar.bz2
+  /usr/src/libpng12-1.2.20-X.tar.bz2
+  /usr/src/libpng12-devel-1.2.20-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the main package:
 
   /usr/bin/cygpng12.dll
-  /usr/share/doc/Cygwin/libpng12-1.2.18.README
-  /usr/share/doc/libpng12-1.2.18/ANNOUNCE
-  /usr/share/doc/libpng12-1.2.18/Changes
-  /usr/share/doc/libpng12-1.2.18/INSTALL
-  /usr/share/doc/libpng12-1.2.18/KNOWNBUG
-  /usr/share/doc/libpng12-1.2.18/LICENSE
-  /usr/share/doc/libpng12-1.2.18/README
-  /usr/share/doc/libpng12-1.2.18/TODO
-  /usr/share/doc/libpng12-1.2.18/example.c
-  /usr/share/doc/libpng12-1.2.18/libpng-1.2.18.txt
+  /usr/share/doc/Cygwin/libpng12-1.2.20.README
+  /usr/share/doc/libpng12-1.2.20/ANNOUNCE
+  /usr/share/doc/libpng12-1.2.20/Changes
+  /usr/share/doc/libpng12-1.2.20/INSTALL
+  /usr/share/doc/libpng12-1.2.20/KNOWNBUG
+  /usr/share/doc/libpng12-1.2.20/LICENSE
+  /usr/share/doc/libpng12-1.2.20/README
+  /usr/share/doc/libpng12-1.2.20/TODO
+  /usr/share/doc/libpng12-1.2.20/example.c
+  /usr/share/doc/libpng12-1.2.20/libpng-1.2.20.txt
 
 Files included in the development package:
 
@@ -73,6 +73,9 @@ Files included in the development package:
 ------------------
 
 Port Notes:
+
+----- version 1.2.20-1 -----
+Version bump.
 
 ----- version 1.2.18-2 -----
 Fixed pkg-config file.
