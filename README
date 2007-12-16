@@ -28,32 +28,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libpng12-1.2.23-X-src.tar.bz2
+  unpack libpng12-1.2.24-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libpng12-1.2.23-X.cygport all
+  cygport ./libpng12-1.2.24-X.cygport all
 
 This will create:
-  /usr/src/libpng12-1.2.23-X-src.tar.bz2
-  /usr/src/libpng12-1.2.23-X.tar.bz2
-  /usr/src/libpng12-devel-1.2.23-X.tar.bz2
+  /usr/src/libpng12-1.2.24-X-src.tar.bz2
+  /usr/src/libpng12-1.2.24-X.tar.bz2
+  /usr/src/libpng12-devel-1.2.24-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the main package:
 
   /usr/bin/cygpng12.dll
-  /usr/share/doc/Cygwin/libpng12-1.2.23.README
-  /usr/share/doc/libpng12-1.2.23/ANNOUNCE
-  /usr/share/doc/libpng12-1.2.23/Changes
-  /usr/share/doc/libpng12-1.2.23/INSTALL
-  /usr/share/doc/libpng12-1.2.23/KNOWNBUG
-  /usr/share/doc/libpng12-1.2.23/LICENSE
-  /usr/share/doc/libpng12-1.2.23/README
-  /usr/share/doc/libpng12-1.2.23/TODO
-  /usr/share/doc/libpng12-1.2.23/example.c
-  /usr/share/doc/libpng12-1.2.23/libpng-1.2.23.txt
+  /usr/share/doc/Cygwin/libpng12-1.2.24.README
+  /usr/share/doc/libpng12-1.2.24/ANNOUNCE
+  /usr/share/doc/libpng12-1.2.24/Changes
+  /usr/share/doc/libpng12-1.2.24/INSTALL
+  /usr/share/doc/libpng12-1.2.24/KNOWNBUG
+  /usr/share/doc/libpng12-1.2.24/LICENSE
+  /usr/share/doc/libpng12-1.2.24/README
+  /usr/share/doc/libpng12-1.2.24/TODO
+  /usr/share/doc/libpng12-1.2.24/example.c
+  /usr/share/doc/libpng12-1.2.24/libpng-1.2.24.txt
 
 Files included in the development package:
 
@@ -73,6 +73,9 @@ Files included in the development package:
 ------------------
 
 Port Notes:
+
+----- version 1.2.24-1 -----
+Version bump.
 
 ----- version 1.2.23-1 -----
 Version bump.
