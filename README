@@ -5,15 +5,14 @@ format. PNG, or Portable Network Graphics, is a
 turbo-studly image format with lossless compression.
 
 Runtime requirements:
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   zlib-1.2.3-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.7-1
-  gawk-3.1.5-4
+  cygport-0.3.8-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   make-3.81-1
   sed-4.1.5-2
@@ -28,32 +27,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libpng12-1.2.24-X-src.tar.bz2
+  unpack libpng12-1.2.25-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libpng12-1.2.24-X.cygport all
+  cygport ./libpng12-1.2.25-X.cygport all
 
 This will create:
-  /usr/src/libpng12-1.2.24-X-src.tar.bz2
-  /usr/src/libpng12-1.2.24-X.tar.bz2
-  /usr/src/libpng12-devel-1.2.24-X.tar.bz2
+  /usr/src/libpng12-1.2.25-X-src.tar.bz2
+  /usr/src/libpng12-1.2.25-X.tar.bz2
+  /usr/src/libpng12-devel-1.2.25-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the main package:
 
   /usr/bin/cygpng12.dll
-  /usr/share/doc/Cygwin/libpng12-1.2.24.README
-  /usr/share/doc/libpng12-1.2.24/ANNOUNCE
-  /usr/share/doc/libpng12-1.2.24/Changes
-  /usr/share/doc/libpng12-1.2.24/INSTALL
-  /usr/share/doc/libpng12-1.2.24/KNOWNBUG
-  /usr/share/doc/libpng12-1.2.24/LICENSE
-  /usr/share/doc/libpng12-1.2.24/README
-  /usr/share/doc/libpng12-1.2.24/TODO
-  /usr/share/doc/libpng12-1.2.24/example.c
-  /usr/share/doc/libpng12-1.2.24/libpng-1.2.24.txt
+  /usr/share/doc/Cygwin/libpng12-1.2.25.README
+  /usr/share/doc/libpng12-1.2.25/ANNOUNCE
+  /usr/share/doc/libpng12-1.2.25/Changes
+  /usr/share/doc/libpng12-1.2.25/INSTALL
+  /usr/share/doc/libpng12-1.2.25/KNOWNBUG
+  /usr/share/doc/libpng12-1.2.25/LICENSE
+  /usr/share/doc/libpng12-1.2.25/README
+  /usr/share/doc/libpng12-1.2.25/TODO
+  /usr/share/doc/libpng12-1.2.25/example.c
+  /usr/share/doc/libpng12-1.2.25/libpng-1.2.25.txt
 
 Files included in the development package:
 
@@ -73,6 +72,9 @@ Files included in the development package:
 ------------------
 
 Port Notes:
+
+----- version 1.2.25-1 -----
+Version bump.
 
 ----- version 1.2.24-1 -----
 Version bump.
