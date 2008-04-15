@@ -74,7 +74,7 @@ Files included in the development package:
 Port Notes:
 
 ----- version 1.2.26-1 -----
-Version bump.
+Version bump.  Includes patch for CVE-2008-1382.
 
 ----- version 1.2.24-1 -----
 Version bump.
