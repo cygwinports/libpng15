@@ -5,13 +5,13 @@ format. PNG, or Portable Network Graphics, is a
 turbo-studly image format with lossless compression.
 
 Runtime requirements:
-  cygwin-1.5.25-7
+  cygwin-1.5.25-11
   zlib-1.2.3-2
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20060817-1
-  cygport-0.3.8-1
+  cygport-0.3.10-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   make-3.81-1
@@ -27,32 +27,31 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libpng12-1.2.26-X-src.tar.bz2
+  unpack libpng12-1.2.27-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libpng12-1.2.26-X.cygport all
+  cygport ./libpng12-1.2.27-X.cygport all
 
 This will create:
-  /usr/src/libpng12-1.2.26-X-src.tar.bz2
-  /usr/src/libpng12-1.2.26-X.tar.bz2
-  /usr/src/libpng12-devel-1.2.26-X.tar.bz2
+  /usr/src/libpng12-1.2.27-X-src.tar.bz2
+  /usr/src/libpng12-1.2.27-X.tar.bz2
+  /usr/src/libpng12-devel-1.2.27-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the main package:
 
   /usr/bin/cygpng12.dll
-  /usr/share/doc/Cygwin/libpng12-1.2.26.README
-  /usr/share/doc/libpng12-1.2.26/ANNOUNCE
-  /usr/share/doc/libpng12-1.2.26/Changes
-  /usr/share/doc/libpng12-1.2.26/INSTALL
-  /usr/share/doc/libpng12-1.2.26/KNOWNBUG
-  /usr/share/doc/libpng12-1.2.26/LICENSE
-  /usr/share/doc/libpng12-1.2.26/README
-  /usr/share/doc/libpng12-1.2.26/TODO
-  /usr/share/doc/libpng12-1.2.26/example.c
-  /usr/share/doc/libpng12-1.2.26/libpng-1.2.26.txt
+  /usr/share/doc/libpng12-1.2.27/ANNOUNCE
+  /usr/share/doc/libpng12-1.2.27/Changes
+  /usr/share/doc/libpng12-1.2.27/INSTALL
+  /usr/share/doc/libpng12-1.2.27/KNOWNBUG
+  /usr/share/doc/libpng12-1.2.27/LICENSE
+  /usr/share/doc/libpng12-1.2.27/README
+  /usr/share/doc/libpng12-1.2.27/TODO
+  /usr/share/doc/libpng12-1.2.27/example.c
+  /usr/share/doc/libpng12-1.2.27/libpng-1.2.27.txt
 
 Files included in the development package:
 
@@ -72,6 +71,9 @@ Files included in the development package:
 ------------------
 
 Port Notes:
+
+----- version 1.2.27-1 -----
+Version bump.
 
 ----- version 1.2.26-1 -----
 Version bump.  Includes patch for CVE-2008-1382.
