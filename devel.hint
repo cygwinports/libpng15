@@ -1,5 +1,5 @@
 category: Graphics Libs
-requires: cygwin zlib
+requires: cygwin libpng12 zlib
 external-source: libpng12
 sdesc: "PNG library (1.2 development)"
 ldesc: "libpng is the official reference library for the PNG
