@@ -1,5 +1,5 @@
 category: Graphics Libs
-requires: cygwin zlib
+requires: zlib
 sdesc: "PNG library (1.2 runtime)"
 ldesc: "libpng is the official reference library for the PNG
 format. PNG, or Portable Network Graphics, is a
