@@ -1,6 +1,0 @@
-category: Graphics Libs
-requires: zlib
-sdesc: "PNG library (1.2 runtime)"
-ldesc: "libpng is the official reference library for the PNG
-format. PNG, or Portable Network Graphics, is a
-turbo-studly image format with lossless compression."

@@ -1,0 +1,15 @@
+NAME="libpng"
+VERSION=1.5.14
+RELEASE=1
+CATEGORY="Graphics"
+SUMMARY="PNG library"
+DESCRIPTION="libpng is the official reference library for the Portable Network
+Graphics (PNG) image format."
+HOMEPAGE="http://libpng.sourceforge.net/"
+SRC_URI="mirror://sourceforge/libpng/libpng-${VERSION}.tar.xz"
+SRC_DIR="libpng-${VERSION}"
+
+PKG_NAMES="libpng15 libpng-devel libpng-doc"
+libpng15_CONTENTS="usr/bin/cygpng15-15.dll"
+libpng_devel_CONTENTS="usr/bin/*-config usr/include/ usr/lib/"
+libpng_doc_CONTENTS="usr/share/doc/ usr/share/man/"
