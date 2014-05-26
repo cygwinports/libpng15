@@ -1,5 +1,5 @@
 NAME="libpng"
-VERSION=1.5.14
+VERSION=1.5.18
 RELEASE=1
 CATEGORY="Graphics"
 SUMMARY="PNG library"
