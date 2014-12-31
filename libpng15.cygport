@@ -10,10 +10,9 @@ SRC_URI="mirror://sourceforge/libpng/libpng-${VERSION}.tar.xz"
 SRC_DIR="libpng-${VERSION}"
 
 PKG_NAMES="libpng15 libpng15-devel"
-libpng15_CONTENTS="usr/bin/cygpng15-15.dll"
+libpng15_CONTENTS="usr/bin/cygpng15-15.dll usr/share/doc/"
 libpng15_devel_CONTENTS="usr/bin/libpng15-config usr/include/libpng15/ usr/lib/libpng15.* usr/lib/pkgconfig/libpng15.pc"
-libpng_doc_CONTENTS="usr/share/doc/ usr/share/man/"
-PKG_IGNORE=${libpng_doc_CONTENTS}
+PKG_IGNORE="usr/share/man/"
 
 CYGCONF_ARGS="
 	--disable-unversioned-links
