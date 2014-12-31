@@ -1,7 +1,7 @@
-NAME="libpng"
-VERSION=1.5.18
+NAME="libpng15"
+VERSION=1.5.21
 RELEASE=1
-CATEGORY="Graphics"
+CATEGORY="Libs"
 SUMMARY="PNG library"
 DESCRIPTION="libpng is the official reference library for the Portable Network
 Graphics (PNG) image format."
@@ -9,7 +9,14 @@ HOMEPAGE="http://libpng.sourceforge.net/"
 SRC_URI="mirror://sourceforge/libpng/libpng-${VERSION}.tar.xz"
 SRC_DIR="libpng-${VERSION}"
 
-PKG_NAMES="libpng15 libpng-devel libpng-doc"
+PKG_NAMES="libpng15 libpng15-devel"
 libpng15_CONTENTS="usr/bin/cygpng15-15.dll"
-libpng_devel_CONTENTS="usr/bin/*-config usr/include/ usr/lib/"
+libpng15_devel_CONTENTS="usr/bin/libpng15-config usr/include/libpng15/ usr/lib/libpng15.* usr/lib/pkgconfig/libpng15.pc"
 libpng_doc_CONTENTS="usr/share/doc/ usr/share/man/"
+PKG_IGNORE=${libpng_doc_CONTENTS}
+
+CYGCONF_ARGS="
+	--disable-unversioned-links
+	--disable-unversioned-libpng-pc
+	--disable-unversioned-libpng-config
+"
